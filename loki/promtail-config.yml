@@ -21,7 +21,7 @@ scrape_configs:
         refresh_interval: 5s
         filters:
           - name: label
-            values: ["com.docker.compose.project=georide"]
+            values: ["com.docker.compose.project=learning"]
     
     relabel_configs:
       # Extract container name

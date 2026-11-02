@@ -23,3 +23,8 @@ Thumbs.db
 # Database / local data
 *.db
 *.sqlite
+# Loki runtime data
+/loki/data/
+
+# Share configuration template
+!.env.example
